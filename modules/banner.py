@@ -1,5 +1,7 @@
+from colorama import Fore
+
 def ban():
-    print("""
+    print(Fore.LIGHTGREEN_EX + """
 
 >=>       >=>       >>       >===>>=====> >=>    >=>   >=>>=>   
 >> >=>   >>=>      >>=>           >=>     >=>    >=> >=>    >=> 
