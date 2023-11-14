@@ -1,4 +1,9 @@
+import sys,os
 import math
-from modules import colorama
+from colorama import Fore,Style
 
-print(Fore.GREEN + "Hello World!")
+os.system("clear")
+
+print("""
+
+""")
