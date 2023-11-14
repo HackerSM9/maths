@@ -17,19 +17,22 @@ print("""
 7) EXIT
 """)
 
-choose = "Choose your Equation: "
-sp.sprint(input(choose))
+Q = int(input("Choose your Equation: "))
 
-if choose == '1':
-    num1 = input('Enter the first number: ')
-    num2 = input('Enter the second number: ')
-    print(f'{num1} + {num2} = ',mt.addition(int(num1), int(num2)))
-          elif choose == '2':
-          num1 = input('Enter the first number: ')
-          num2 = input('Enter the second number: ')
-          print(f'{num1} - {num2} = ',mt.subtraction(int(num1), int(num)))
-          elif choose == '3':
-          num1 = input('Enter the first number: ')
-          num2 = input('Enter the second number: ')
-          print(f'{num1} * {num2} = ',mt.multiplication(int(num1), int(num)))
-          elif choose == '4':
+if Q == 1:
+    mt.addition()
+
+elif Q == 2:
+    mt.subtraction()
+
+elif Q == 3:
+    mt.multiplication()
+
+elif Q == 4:
+    mt.division()
+
+elif Q == 5:
+    mt.square_root()
+
+elif Q == 6:
+    mt.cube_root()
